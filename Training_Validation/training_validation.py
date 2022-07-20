@@ -17,6 +17,12 @@ class Training_Validation:
         self.dv.validateColumn(numberofColumns)
         self.dv.validateMissingValuesInWholeColumn()
         self.td.putNull()
+<<<<<<< Updated upstream
+=======
+        self.db.createTable("Training_Data",column_names)
+        # self.db.savetoDB("Training_Data")
+
+>>>>>>> Stashed changes
 
 
 
